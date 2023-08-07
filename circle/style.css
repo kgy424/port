@@ -1,0 +1,184 @@
+@font-face {
+    font-family: austin;
+    src: url(./Fonts/Austin-Light-Web.ttf);
+}
+@font-face {
+    font-family: gilroy;
+    font-weight: 200;
+    src: url(./Fonts/Gilroy-UltraLightItalic.otf);
+}
+@font-face {
+    font-family: gilroy;
+    font-weight: 100;
+    src: url(./Fonts/Gilroy-Thin.otf);
+}
+@font-face {
+    font-family: gilroy;
+    font-weight: 300;
+    src: url(./Fonts/Gilroy-Light.otf);
+}
+@font-face {
+    font-family: gilroy;
+    font-weight: 400;
+    src: url(./Fonts/Gilroy-Medium.otf);
+}
+@font-face {
+    font-family: gilroy;
+    font-weight: 500;
+    src: url(./Fonts/Gilroy-Semibold.otf);
+}
+@font-face {
+    font-family: gilroy;
+    font-weight: 600;
+    src: url(./Fonts/Gilroy-Bold.otf);
+}
+@font-face {
+    font-family: gilroy;
+    font-weight: 700;
+    src: url(./Fonts/Gilroy-Extrabold.otf);
+}
+@font-face {
+    font-family: gilroy;
+    font-weight: 800;
+    src: url(./Fonts/Gilroy-Black.otf);
+}
+@font-face {
+    font-family: gilroy;
+    font-weight: 900;
+    src: url(./Fonts/Gilroy-Heavy.otf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+body{height: 100vh; overflow: hidden;}
+
+#main {
+   
+   
+    background-color: #333333;
+   
+}
+
+
+
+#page1 {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    /* background-color: #D2D3C3;
+    background-image: linear-gradient(to left, transparent 1px, transparent calc((78vw - 1px)/ 24 - 1px), rgba(255, 255, 255, .6) calc((78vw - 1px)/ 24 - 1px), rgba(255, 255, 255, .6) calc((78vw - 1px)/ 24)), linear-gradient(to left, transparent 1px, transparent calc((78vw - 1px)/ 24 - 1px), rgba(255, 255, 255, .6) calc((78vw - 1px)/ 24 - 1px), rgba(255, 255, 255, .6) calc((78vw - 1px)/ 24));
+    background-size: calc((78vw - 1px)/ 24) 100%, calc((78vw - 1px)/ 24) 93%;
+    background-position-x: calc((78vw - 1px)/ 24 / 2), calc((78vw - 1px)/ 24); */
+    padding: 1px;
+}
+
+#page1>h1 {
+    position: absolute;
+    top: 37vh;
+    left: 40.6vw;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 7.8vw;
+    font-family: austin;
+    font-weight: 100;
+    line-height: 6.6vw;
+    z-index: 999;
+    /* overflow: hidden; */
+    color: #f1f1f1;
+}
+
+#page1>h1 span {
+    font-family: austin;
+}
+
+#page1>h1:nth-child(2) {
+    position: absolute;
+    top: 54.1vh;
+    /* overflow: hidden; */
+    left: 55.6vw;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 7.8vw;
+    font-family: austin;
+    font-weight: 100;
+    line-height: 6.6vw;
+    z-index: 999;
+}
+
+#page1 img {
+    height: 24vmax;
+    left: 37.5vw;
+    top: 39vh;
+    /* transform: translate(-50%, 0); */
+    position: absolute;
+    z-index: 99;
+}
+
+#page1 #platform {
+    width: 88vw;
+    height: 44vw;
+    background-color: #ffe55f;
+    position: relative;
+    z-index: 9;
+    margin-left: 6vw;
+    -webkit-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    margin-top: 90vh;
+    border-bottom-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding-top: 8vw;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+}
+
+#platform h1 {
+    font-size: 3.7vw;
+    font-weight: 500;
+    font-family: austin;
+    /* background-color: red; */
+    width: 38%;
+    text-align: center;
+}
+
+#platform h1 span {
+    font-size: 3.7vw;
+    font-weight: 500;
+    font-family: austin;
+    font-style: italic;
+    position: relative;
+}
+
+#platform h1 span:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.7vw;
+    background-image: url(https://olhauzhykova.com/assets/svg/underline.svg);
+    bottom: 0;
+}
+
+#platform h1 span:nth-child(2):before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.3vw;
+    background-color: #73bb4c;
+    bottom: 0;
+}
