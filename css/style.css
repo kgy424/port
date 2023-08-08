@@ -1283,7 +1283,10 @@ height: 200vh;
     right: 33rem;
     transition: .3s;
 }
-
+.port_wrap .giants_wrap .site .one .icon_site {
+    left: 25rem;
+    bottom: 14rem;
+}
 .port_wrap .giants_wrap .site .site_img {
     opacity: 0;
     transform: translateX(-20%);
