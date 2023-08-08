@@ -367,6 +367,9 @@ height: 200vh;
     height: 84%;
     z-index: -1;
     position: relative;
+    background: url(../img/stars_bg01.jpg) no-repeat ;
+    background-position: bottom;
+    background-size: cover;
 }
 
 .paperplane-timeline01 .track {

@@ -46,36 +46,28 @@
     })
 
 
-    //bgc
-    let bgc01 = document.querySelector(".paperplane-timeline01_bg");
+//     //bgc
+//     let bgc01 = document.querySelector(".paperplane-timeline01_bg");
 
-    bgc01.animate([{
-        backgroundColor: '#333',
-    },{
-            backgroundColor: '#333',
-        },{
-            backgroundColor: '#000',
-        },{
-            backgroundColor: '#000',
-        },{
-            backgroundColor: '#000',
-        },{
-            backgroundColor: '#000',
-        },
-    ], {
-        fill: 'both',
-        timeline: new ScrollTimeline({
-            scrollOffsets: [{
-                    target: document.body,
-                    edge: "start",
-                    threshold: 1
-                },
-                {
-                    target: document.body,
-                    edge: "end",
-                    threshold: 1
-                }
-            ]
-        })
-    })
-})();
+//     bgc01.animate([{
+//         backgroundColor: '#1c1719',
+//     },{
+//             backgroundColor: '#000',
+//         },
+//     ], {
+//         fill: 'both',
+//         timeline: new ScrollTimeline({
+//             scrollOffsets: [{
+//                     target: document.body,
+//                     edge: "start",
+//                     threshold: 1
+//                 },
+//                 {
+//                     target: document.body,
+//                     edge: "end",
+//                     threshold: 1
+//                 }
+//             ]
+//         })
+//     })
+ })();

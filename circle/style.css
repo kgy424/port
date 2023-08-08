@@ -61,8 +61,8 @@ body{height: 100vh; overflow: hidden;}
 #main {
    
    
-    background-color: #333333;
-   
+    background: url(stars_bg.jpg) no-repeat;
+   background-size: cover;
 }
 
 
